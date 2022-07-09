@@ -1,0 +1,53 @@
+<html>
+    <head>
+<style>
+    .main{
+        width: 60%;
+        display: grid;
+        grid-template-columns:repeat(5,1fr);
+        grid-template-rows: 100px;
+        border: 1px solid red;
+        margin: auto;
+        background-color: rgb(28, 65, 65);
+        color: aliceblue;
+        border-radius: 50px;
+        /* display: flex; */
+       /* justify-content: right; */
+       padding: 20px;
+        
+    }
+    .main>div{
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .main>div:nth-child(1){
+        text-align: left;
+        
+    }
+    #first{
+        display: flex;
+        justify-content: first baseline;
+        text-align: left;
+    }
+
+</style>
+
+    </head>
+<body>
+        <div class="main">
+            <div id="first" >Reebok</div>
+            <div>Men</div>
+            <div>Women</div>
+            <div>Login</div>
+            <div>Signup</div>
+
+
+
+
+        </div>
+
+</body>
+
+
+</html>
